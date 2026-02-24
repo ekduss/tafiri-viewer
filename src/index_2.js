@@ -56,8 +56,8 @@ function getLeafletCustom(){
     const customLayer = L.control({ position: 'topright' });
     customLayer.onAdd = () => {
         let message = ''
-        if (dataType=='chl') message = '동일한 Chl-A 비교'
-        else message = '동일한 SST 비교'
+        if (dataType=='chl') message = 'Chl-A 비교'
+        else message = 'SST 비교'
 
         const customDiv = L.DomUtil.create('div');
         customDiv.id = 'layer-menu'
