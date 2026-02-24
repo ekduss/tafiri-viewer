@@ -1,0 +1,4 @@
+.custom-height {
+    max-height: 350px;
+    overflow: auto;
+}

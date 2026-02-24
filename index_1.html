@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAFIRI-viewer1</title>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Tailwind -->
+    <link href="./src/tailwindcss/output.css" rel="stylesheet">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="./src/leaflet/leaflet.css">
+    <script type="text/javascript" src="./src/leaflet/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/leaflet-awesome-markers/leaflet.awesome-markers.css">
+    <script src="./src/leaflet-awesome-markers/leaflet.awesome-markers.js"></script>
+    <script type="text/javascript" src="./src/colorbar.js"></script>
+
+    <!-- Leaflet style -->
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+
+        #layer-dataList {
+            font-family: "Outfit";
+            width: 400px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script src="./src/index_1.js"></script>
+</body>
+</html>
