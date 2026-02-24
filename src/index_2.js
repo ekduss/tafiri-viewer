@@ -67,8 +67,8 @@ function getLeafletCustom(){
                                     ` + message + `
                                 </h3>
                             </div>
-                            <div class="text-base bg-white px-2 text-right"><span>Left: </span>` + getChlImageOverlay('left') + `</div>
-                            <div class="text-base bg-white px-2 py-1"><span>Right: </span>` + getChlImageOverlay('right') + `</div></div>`
+                            <div class="text-sm bg-white text-right"><span>Left: </span>` + getChlImageOverlay('left') + `</div>
+                            <div class="text-sm bg-white text-right py-1"><span>Right: </span>` + getChlImageOverlay('right') + `</div></div>`
         return customDiv;
     }
     customLayer.addTo(map);
